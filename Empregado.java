@@ -33,14 +33,10 @@ public class Empregado implements Comparable<Empregado>  {
                 + "\n CPF: " + getCpf()
                 + "\n Salario: " + getSalario()
                 + "\n";
-
     }
 
     @Override
     public int compareTo(Empregado outroEmpregado) {
         return this.nome.compareTo(outroEmpregado.nome);
     }
-
-
-
 }
