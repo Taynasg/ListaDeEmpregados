@@ -10,13 +10,12 @@ public class TestaEmprecados {
         TestaEmprecados testaEmprecados = new TestaEmprecados();
 
         System.out.println("===========================================");
-        System.out.println("         LISTA DE EMPREGADOS            ");
+        System.out.println("     ==== LISTA DE EMPREGADOS ====            ");
         System.out.println("===========================================");
 
         System.out.println("Preencha os dados solicitados");
 
         System.out.println();
-
 
         for (int i = 1; i < 4; i++) {
             Empregado empregado = new Empregado();
@@ -30,8 +29,8 @@ public class TestaEmprecados {
 
 
         int opcao;
-        do {
 
+        do {
             System.out.println("Você gostaria de remover um(a) empregado(a) da lista?");
             System.out.println("1 - Sim");
             System.out.println("2 - Não");

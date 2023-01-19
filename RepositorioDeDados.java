@@ -6,7 +6,6 @@ public class RepositorioDeDados {
 
     public void cadastrarNovosEmpregados(Empregado empregado) {
         listaDeEmpregados.add(empregado);
-
     }
 
     public List<Empregado> mostrarlistaDeEmpregados() {
@@ -15,7 +14,6 @@ public class RepositorioDeDados {
 
 
     public boolean excluirEmpregado(String cpf) {
-
         for (int i = 0; i < listaDeEmpregados.size(); i++) {
             Empregado empregado = listaDeEmpregados.get(i);
             if (empregado.getCpf().equals(cpf)) {
